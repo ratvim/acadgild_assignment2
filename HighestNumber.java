@@ -4,11 +4,13 @@ public class HighestNumber {
 	private static Scanner sc;
 	public static void main(String args[])
 	{
-		int a = 3;
+		
 		int i;	
 		int b = 0;
-		int [] numbers = new int [3];
 		sc = new Scanner(System.in);
+		System.out.println("how many number you want to compare");
+		int a  = sc.nextInt();
+		int [] numbers = new int [a-1];
 		while (a > 0){
 			System.out.println("Enter number:");
 			i = sc.nextInt();
